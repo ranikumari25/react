@@ -1,3 +1,5 @@
+
+import ProfileCard from "./ProfileCard"
 function app(){
   return ( 
   <>
@@ -8,9 +10,11 @@ function app(){
       <li>CSS</li>
       <li>JavaScript</li>
     </ul>
+
+    <ProfileCard/>
   </>
   )
-  
+
 }
 
 export default app
