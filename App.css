@@ -1,0 +1,21 @@
+.content {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+aside {
+  width: 25%;
+  padding: 20px;
+}
+
+main {
+  width: 75%;
+  padding: 20px;
+}
+
+article {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid black;
+}

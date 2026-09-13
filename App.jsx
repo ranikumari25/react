@@ -1,20 +1,23 @@
+import "./App.css";
 
-import ProfileCard from "./ProfileCard"
-function app(){
-  return ( 
-  <>
-    <h1>Hello React</h1>
+import Header from "./components/header";
+import Sidebar from "./components/sidebar";
+import Main from "./components/main";
+import Footer from "./components/footer";
 
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-    </ul>
+function App() {
+  return (
+    <>
+      <Header />
 
-    <ProfileCard/>
-  </>
-  )
+      <div className="content">
+        <Sidebar />
+        <Main />
+      </div>
 
+      <Footer />
+    </>
+  );
 }
 
-export default app
+export default App;
